@@ -1,0 +1,70 @@
+.dashboard-container {
+    max-width: 414px;
+    margin: 0 auto;
+    background-color: #C3D4E5;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .header-button {
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  .header-button.selected {
+    background-color: #ffcc66; /* Example color for the selected state */
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  
+  .welcome-box {
+    background-color: #FFE4B5;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .services-scroll {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+  }
+  
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    min-width: 80px;
+  }
+  
+  .service-icon {
+    font-size: 24px;
+  }
+  
+  .services-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .service-grid-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #E0E0E0;
+  }
+  
+  .service-grid-icon {
+    font-size: 24px;
+    margin-right: 15px;
+  }

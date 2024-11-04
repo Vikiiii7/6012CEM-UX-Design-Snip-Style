@@ -1,0 +1,58 @@
+.booking-summary-container {
+    background-color: #C3D4E5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-summary-header {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .booking-summary-header h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .booking-summary-details {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  /* The rest of the CSS remains the same */
+
+.booking-summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .booking-summary-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .booking-summary-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+  
+  .booking-summary-button:hover {
+    background-color: #45a049;
+  }
+
+  

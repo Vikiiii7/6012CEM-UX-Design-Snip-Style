@@ -1,0 +1,73 @@
+
+  .success-booking {
+    background-color: #fff;
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 49px 0 285px;
+  }
+
+  .logo-container {
+    display: flex;
+    width: 70%;
+    margin-left: 60px;
+    flex-direction: column;
+  }
+
+
+  .brand-title {
+    color: #fff;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    align-self: end;
+    margin-top: 49px;
+    font: 400 48px Alex Brush, -apple-system, Roboto, Helvetica, sans-serif;
+    border: 1px solid #000;
+  }
+
+  .success-icon-wrapper {
+
+    align-self: center;
+    display: flex;
+    margin-top: 48px;
+    width: 180px;
+    height: 180px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 19px;
+  }
+
+  .success-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .success-message {
+    color: #000;
+    text-align: center;
+    align-self: center;
+    margin-top: 49px;
+    font: 700 32px Manrope, sans-serif;
+  }
+
+  .close-button {
+    background: transparent;
+    border: none;
+    color: #000; /* Change color as needed */
+    font-size: 24px; /* Size of the X */
+    position: absolute; /* Position it at the top right */
+    left: 40px;
+    top: 50px; /* Adjust distance from the top */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+  
+  .close-button:hover {
+    color: red; /* Change color on hover if desired */
+  }
+  

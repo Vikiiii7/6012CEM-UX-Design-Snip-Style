@@ -1,0 +1,130 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  --primary-bg: #c2d3e5;
+  --secondary-bg: #d9d9d9;
+  --accent-color: #a43b00;
+  --border-color: #000000;
+  --font-color-dark: #000000;
+  --font-color-light: #adabab;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  font-family: var(--default-font-family);
+}
+
+.main-container {
+  position: relative;
+  max-width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px 10px;
+  background: var(--primary-bg);
+  overflow: auto;
+}
+
+.your-booking {
+  margin: 0 0 20px;
+  color: var(--font-color-dark);
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.rectangle {
+  padding: 16px;
+  width: 100%;
+  background: var(--secondary-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  overflow: auto;
+  margin-top: 40px;
+}
+
+.booking-details {
+  margin-left: 65px;
+  color: var(--font-color-dark);
+  font-size: 1.3rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.flex-row,
+.flex-row-e,
+.flex-row-db {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  width: 100%;
+}
+
+.client-name,
+.client-phone-number,
+.total-amount,
+.service-name,
+.service-price {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--font-color-dark);
+  text-align: left;
+}
+
+.rectangle-2,
+.rectangle-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  padding: 5px;
+  height: auto;
+  background: #c8c7c7;
+  border-radius: 12px;
+}
+
+.rectangle-5 {
+  margin: 20px auto;
+  width: 150px;
+  height: 46px;
+  background: #f5d6d6;
+  border: 1px solid var(--border-color);
+  border-radius: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--font-color-dark);
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .your-booking {
+      font-size: 1.6rem;
+  }
+
+  .booking-details {
+      font-size: 1.2rem;
+  }
+
+  .client-name,
+  .client-phone-number,
+  .total-amount {
+      font-size: 0.9rem;
+  }
+
+  .rectangle-5 {
+      width: 130px;
+      font-size: 1rem;
+  }
+}
